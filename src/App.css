@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+hr {
+  border: none;
+  background-color: black;
+  color: black;
+  height: 2px;
+}
+
+#root {
+  width: 100vw;
+  margin: 0 0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  color: black;
+}
+
+.left, .right {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+    margin-bottom: 70px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+    width: 30vw;
+
+}
+
+.CV-preview {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px;
+    flex: 1;
+    width: 35vw;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px grey;
+    background-color: white;
+}
+
+button {
+  height: 50px;
+  bottom: 0;
+}
